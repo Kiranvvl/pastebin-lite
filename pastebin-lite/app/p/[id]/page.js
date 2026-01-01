@@ -1,8 +1,8 @@
 // app/p/[id]/page.js
-import { escapeHtml } from '@/lib/utils';
+import { escapeHtml } from '../../../lib/utils';
 
 async function getPaste(id) {
-  const { pool } = await import('@/lib/db');
+  const { pool } = await import('../../../lib/db');
   
   try {
     // Get paste

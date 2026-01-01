@@ -46,7 +46,7 @@
 
 // app/api/pastes/route.js
 import { nanoid } from 'nanoid';
-import { pool } from '@/lib/db';
+import { pool } from '../../../lib/db';
 
 export async function POST(request) {
   try {
